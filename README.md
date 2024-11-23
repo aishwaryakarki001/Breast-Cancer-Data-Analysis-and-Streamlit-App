@@ -134,20 +134,13 @@ Breast Cancer Dataset (UCI Machine Learning Repository): https://archive.ics.uci
 ## A. Visualizations
 
 1. Heatmap of Feature Correlations:
-![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/main/Images/Heatmap.jpg?raw=true)
+![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/blob/main/Images/Heatmap.png)
 
+2. Correlation of each feature with the target variable
+![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/blob/main/Images/Correlation.png)
 
-2. Displays relationships between features and the target variable.
-
-
-
-
-
-
-
-3. Correlation of each feature with the target variable
-
-Count for target values
+3. Count for target values
+![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/blob/main/Images/count.png)
 
 ## B. Code Snippets
 1. Feature Selection
