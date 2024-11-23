@@ -1,6 +1,6 @@
 # Breast-Cancer-Data-Analysis-and-Streamlit-App
 
-Report on Breast Cancer Prediction Using Artificial Neural Networks with Streamlit App
+## Report on Breast Cancer Prediction Using Artificial Neural Networks with Streamlit App
 
 Submitted By:
 Aishwarya Karki
@@ -12,7 +12,7 @@ Submitted to : Dr. Ishant Gupta
 
 Breast cancer is a significant health concern that requires early and accurate diagnosis to improve treatment outcomes. Machine learning provides a robust method for automating diagnosis based on clinical data. This project develops a predictive model using Artificial Neural Networks (ANN) to classify breast tumors as malignant or benign. The project also incorporates an interactive web application built with Streamlit, allowing users to input clinical measurements and receive predictions. The model achieved an accuracy of 94%, demonstrating its potential as a reliable diagnostic tool.
 
-1. Introduction
+# 1. Introduction
 
 ## 1.1 Problem Statement
 Breast cancer is one of the most common cancers worldwide. Early detection of malignant tumors is critical for effective treatment and better survival rates. Traditional diagnostic methods, while accurate, often rely on manual analysis, which can be time-consuming and prone to human error. Machine learning can automate these processes, delivering consistent and accurate predictions rapidly.
@@ -29,7 +29,7 @@ Features: 30 numerical attributes describing tumor characteristics (e.g., mean r
 Target Variable: A binary classification (0: Benign, 1: Malignant).
 Samples: 569 data points.
 
-2. Methodology
+# 2. Methodology
 
 ## 2.1 Data Preprocessing
 Normalization:
@@ -68,7 +68,7 @@ Features:
 Sliders allowed users to input values for the selected features.
 The app displayed real-time predictions indicating whether the tumor was benign or malignant.
 
-3. Results
+# 3. Results
 
 ## 3.1 Feature Selection
 The SelectKBest method reduced the dimensionality of the dataset, retaining only the 10 most significant features. This simplification improved computational efficiency and interpretability without compromising model accuracy.
@@ -94,7 +94,7 @@ Users could adjust feature values using sliders.
 Real-Time Feedback:
 Predictions were displayed instantly, offering a seamless experience.
 
-4. Discussion
+# 4. Discussion
 ## 4.1 Key Findings
 Feature selection reduced model complexity while maintaining high performance.
 The ANN captured non-linear patterns effectively, leading to accurate predictions.
@@ -111,7 +111,7 @@ This project demonstrates how machine learning can enhance breast cancer diagnos
 Efficient: Automates the diagnostic process, saving time.
 Accessible: The web app makes the model’s predictions available to non-technical users.
 
-5. Future Work
+# 5. Future Work
 Validation on External Data:
 Test the model on datasets from other sources to ensure generalizability.
 Additional Models:
@@ -120,10 +120,10 @@ App Features:
 Add visualizations, such as feature importance graphs, to enhance interpretability.
 Include confidence intervals for predictions.
 
-6. Conclusion
+# 6. Conclusion
 This project successfully developed a machine learning model for breast cancer prediction, achieving a high accuracy of 94%. The use of feature selection reduced complexity without sacrificing performance. Additionally, the Streamlit application bridges the gap between model development and practical usage, offering a simple yet powerful tool for clinicians and researchers. Future work will focus on improving generalizability and expanding the application’s capabilities.
 
-References
+## References
 Scikit-learn Documentation: https://scikit-learn.org/
 Streamlit Documentation: https://streamlit.io/
 Breast Cancer Dataset (UCI Machine Learning Repository): https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
@@ -145,33 +145,12 @@ Breast Cancer Dataset (UCI Machine Learning Repository): https://archive.ics.uci
 ## B. Code Snippets
 1. Feature Selection
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/blob/main/Images/SelectFeatures.png)
 
 2. Hyper parameter tuning and Model Training
 
-
-
-
-
-
-
-
-
+![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/blob/main/Images/HPandModel.png)
 
 3. Streamlit App
 
+![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/blob/main/Images/Streamlit.png)
