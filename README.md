@@ -132,8 +132,12 @@ Breast Cancer Dataset (UCI Machine Learning Repository): https://archive.ics.uci
 
 **Appendix**
 ## A. Visualizations
-Heatmap of Feature Correlations:
-Displays relationships between features and the target variable.
+
+1. Heatmap of Feature Correlations:
+![alt text](https://github.com/aishwaryakarki001/Breast-Cancer-Data-Analysis-and-Streamlit-App/blob/main/Images/Heatmap.jpg?raw=true)
+
+
+2. Displays relationships between features and the target variable.
 
 
 
@@ -141,12 +145,12 @@ Displays relationships between features and the target variable.
 
 
 
-Correlation of each feature with the target variable
+3. Correlation of each feature with the target variable
 
 Count for target values
 
 ## B. Code Snippets
-Feature Selection
+1. Feature Selection
 
 
 
@@ -165,7 +169,7 @@ Feature Selection
 
 
 
-Hyper parameter tuning and Model Training
+2. Hyper parameter tuning and Model Training
 
 
 
@@ -176,5 +180,5 @@ Hyper parameter tuning and Model Training
 
 
 
-Streamlit App
+3. Streamlit App
 
